@@ -18,6 +18,14 @@ https://cdn.jsdelivr.net/gh/ximenxiaobao/rili@main/huangli.ics
 
 也可以把 `huangli.ics` 下载后直接打开，选择「添加全部」，得到一份固定副本。
 
+## 文件较大、订阅验证失败时
+
+`huangli.ics` 有 3 MB（2026–2035），网络慢时手机验证订阅可能超时。可以改订体积更小的 2026–2027 年版本（约 0.7 MB）：
+
+```
+https://raw.githubusercontent.com/ximenxiaobao/rili/main/huangli-2026-2027.ics
+```
+
 ## 生成
 
 由 [jizhang](https://github.com/ximenxiaobao/jizhang) 仓库里的 `scripts/gen_huangli.py` 生成，数据来自开源库 `lunar_python`。宜忌按传统黄历规则计算，不同流派之间会有出入。
